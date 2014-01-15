@@ -33,6 +33,15 @@ describe User do
       @user.errors[:email].should include "can't be blank"
       @user.should_not be_valid
     end
+
+    it 'should allow email address with mixed case' do
+      mixed_case_email = "foO@ExAmPlE.cOm"
+      @user.email = mixed_case_email
+      @user.save
+      @user.reload
+
+      @user.email.should eq mixed_case_email.downcase
+    end
   end
 
   describe "name" do
