@@ -1,0 +1,39 @@
+goals
+  product role 
+  current role is BA, but move towards a more product related
+  product role is to work with the product owner
+    figure out what is the vision
+    very loyal is to what this product is good, what is successful, what are success factors
+    inbetween the client and the developer team
+    all encompassing, technically making sure its great
+    wasnt a real ba before tw - work towards becoming one
+    leading a vision
+  work with team members supply good information
+  learning a hard skill
+
+from michael
+  dealing with josh directly, getting into awkward situations
+    really came into your own and really owned that thing
+    real achievement for you
+  really on top of these things
+  quite nice being able to ask things about whats going on
+  even with a lot of people on the project, still very on top of things
+
+  everyone trusts you and knows that you will do a good job
+  fun to work with
+
+  product stuff
+    not the best project for that creating a vision
+
+  team comments
+    really good at this stuff 
+    work with anybody
+    never down/never a bad attitude
+
+  team contributer
+    being able to pair with someone to work on it
+    allows the team to help understand the domain more
+
+  learning languages
+    front-end, its not m
+    learning rails
