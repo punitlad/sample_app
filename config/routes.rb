@@ -1,6 +1,14 @@
 SampleApp::Application.routes.draw do
-  get "user/new"
-  get "users/new"
+  resources :users
+  # this adds the following information for routes
+  # HTTP  URL           Action  Named route
+  # GET   /users        index   users_path
+  # GET   /users/1      show    users_path(user)
+  # GET   /users/new    new     new_user_path
+  # POST  /users        create  users_path 
+  # GET   /users/1/edit edit    edit_user_path(user)
+  # PATCH /users/1      update  user_path(user)
+  # DELETE/users/1      destroy user_path(user)
 
   root 'static_pages#home'
   match '/signup', to: 'users#new', via: 'get'
