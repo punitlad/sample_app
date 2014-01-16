@@ -116,4 +116,13 @@ describe User do
     end
   end
 
+  describe 'remember_token' do
+    it { @user.should respond_to(:remember_token) }
+
+    it 'should not have a blank remember token' do
+      @user.save
+      @user.remember_token.should_not be_blank
+    end
+  end
+
 end
