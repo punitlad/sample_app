@@ -125,4 +125,15 @@ describe User do
     end
   end
 
+  describe 'admin user' do
+    it { should respond_to(:admin) }
+
+    it 'should set admin user' do
+        @user.save!
+        @user.toggle! :admin
+
+        @user.should be_admin
+    end
+  end
+
 end
